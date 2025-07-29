@@ -13,19 +13,19 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: process.env.SESSION_ID || "malvin~5GVQRD7T#PSCrWCvaq3cz_DrMKyKRVm_fHKubcFV5aFOxVjQgXn0", // Your bot's session ID (keep secure)
+  SESSION_ID: process.env.SESSION_ID || "drakonis~Zm9DEITJ#lVVf4I7_3scvQUdc5E_JTP128_XBguprtAnXvL3VBnA", // Your bot's session ID (keep secure)
   PREFIX: getConfig("PREFIX") || ",", // Command prefix (e.g., ., /, !, *)
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot mode: on/off
-  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ᴍᴀʟᴠɪɴ-xᴅ", // Bot display name
+  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "moonx", // Bot display name
   MODE: getConfig("MODE") || process.env.MODE || "private", // Bot mode: public/private/group/inbox
   REPO: process.env.REPO || "https://github.com/XdKing2/MALVIN-XD", // Bot GitHub repo dont change this❗️
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys", // Baileys version
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857", // Owner WhatsApp number
-  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ", // Owner name
-  DEV: process.env.DEV || "263714757857", // Developer contact number
-  DEVELOPER_NUMBER: '263714757857@s.whatsapp.net', // Developer WhatsApp ID
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "918777371471", // Owner WhatsApp number
+  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "moon-x", // Owner name
+  DEV: process.env.DEV || "918777371471", // Developer contact number
+  DEVELOPER_NUMBER: '918777371471@s.whatsapp.net', // Developer WhatsApp ID
 
   // ===== AUTO-RESPONSE SETTINGS =====
   AUTO_REPLY: process.env.AUTO_REPLY || "false", // Enable auto-reply
